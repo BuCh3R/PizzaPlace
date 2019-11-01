@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(255, 180, 41);
+}
+html{
+    scroll-behavior: smooth; 
+}
+.hamzzalogo img{
+    width: 90px;
+}
+.logo-text-pos{
+    position: relative;
+    top: -8px;
+    left: -12px;
+    width: 140px !important;
+}
+.nav-link{
+    position: relative;
+    top: 12px;
+    font-size: 44px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.statiknumber{
+    color: rgb(172, 33, 33) !important;
+}
+.sizePhone{
+    position: relative;
+    top: -5px;
+    font-size: 34px;
+}
+.white-background{
+    /* border: 2px solid red; */
+}
+.underline-border{
+    border-bottom: 1px solid #222;
+}
+.prices{
+    text-align: center !important;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+.prices p{
+    position: relative;
+    top: 35%;
+}
+.foodHeadline h2{
+    margin: 10px 0px 10px 0px;
+}
+.foodHeadline img{
+    -webkit-animation:spin 4.5 linear;
+    -moz-animation:spin 4.5s linear;
+    animation:spin 4.5s linear;
+    width: 65px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+
+.top-margin{
+    margin-top: 80px;
+}
+.menuTypeLayout-circle{
+    position: relative;
+    top: 20px;
+    left: 2px;
+    margin: 0;
+    width: 69px;
+    border: 2px solid rgb(165, 17, 17);
+    background-color: #fff;
+    border-radius: 50%;
+}
+.menuTypeLayout-bar{
+    position: relative;
+    top: -34.5px;
+    left: 60px;
+    padding-left: 35px;
+    z-index: -10;
+    width: 80%;
+    background-color: green;
+    color: #fff;
+    border-radius: 8px;
+    font-family: 'Fira Sans', sans-serif;
+}
+.oreganeinfo {
+    position: relative;
+    top: 50px;
+    text-align: center;
+}
+#map{
+    position: relative;
+    top: 100px;
+    left: 20% !important;
+    height: 400px;
+    width: 60%;
+    z-index: 999;
+    border: 1px groove #888;
+    border-radius: 2px;
+}
+.shop-location h3, .shop-location h5{
+    position: relative;
+    top: 100px;
+    width: 60%;
+    left: 20% !important;
+}
+.vises-tekst h2{
+    position: relative;
+    top: 120px;
+    width: 60%;
+    left: 20% !important;
+    font-size: 24px;
+}
+.openTimes{
+    transform: rotate(8deg);
+    margin-right: 50px;
+    color: rgb(2, 75, 2);
+}
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 992px){
+    #map{
+        height: 300px;    
+    }
+    .menuTypeLayout-bar{
+        font-size: 24px !important;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    #map{
+        height: 250px;    
+    }
+    .menuTypeLayout-bar{
+        font-size: 16px !important;
+    }
+}
+
+@media only screen and (max-width: 550px){
+    #map{
+        height: 200px;    
+    }
+    .prices{
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 400px){
+    #map{
+        height: 175px;    
+    }
+    .prices{
+        font-size: 12px;
+    }
+}
